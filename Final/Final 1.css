@@ -1,0 +1,470 @@
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	.nav-box{
+		margin-top: 36px;
+	}
+	.nav-itemL{
+		display: inline-block;
+		float: left;
+		margin-left: 28px;		
+	}
+	.nav-itemL a{
+		text-decoration: none;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		color: #42474C;
+		margin-right: 16px;
+	}
+	.nav-itemR{
+		display: inline-block;
+		float: right;
+		margin-right: 28px;
+	}
+	.nav-itemR a{
+		margin-left: 16px;
+		color: black;
+	}
+	.nav-itemR span{
+		vertical-align: text-top;
+		margin-right: 6px;
+	}
+	.nav-itemR p{
+		text-decoration: none;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		display: inline-block;
+		vertical-align: baseline;
+	}
+	.logo{
+		text-align: center;
+		width: 120px;
+		height: 85px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+
+	}
+	.nav2-box{
+		text-align: center;
+		margin-top: 24px;
+	}
+	.nav2-box a{
+		text-decoration: none;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		color: #212326;
+	}
+	.nav2-box a:not(:last-child){
+		margin-right: 32px;
+	}
+	.search-bar{
+		margin-left: auto;
+		width: 164px;
+		margin-right: 28px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		margin-top: 14px;
+	}
+	.search-bar span{
+		vertical-align: text-top;
+		margin-right: 6px;
+	}
+	.search-bar p{
+		display: inline-block;
+		vertical-align: top;
+		line-height: 24px;
+	}
+	.search-bar hr{
+		margin-top: 4px;
+	}
+	.box{
+		width: 880px;
+		margin-top: 36px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.box p{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 10px;
+		text-align: center;
+	}
+	.image1{
+		background-image: url(https://i.imgur.com/UhgjXa9.png);
+		width: 880px;
+		height: 128px;
+		background-position: center;
+		margin-top: 26px;
+	}
+	.event-1{
+		background-image: url(https://blog.worldlinen.com/hubfs/most-popular-linen-fabrics.jpg);
+		width: 880px;
+		height: 580px;
+		margin-top: 24px;
+		background-size: cover;
+		text-align: center;
+		padding-top: 390px;
+		color: #fff;
+	}
+	.event-1 h1{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+	}
+	.event-1 p{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		margin-top: 12px;
+		margin-bottom: 32px;
+	}
+	.red-box{
+		background: #80001A;
+		border-radius: 4px;
+		width: 132px;
+		height: 44px;
+		margin: 0 auto 0 auto;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 44px;
+	}
+	.box h1{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		margin-top: 28px;
+	}
+	.circle-box{
+		margin-top: 12px;
+		text-align: center;
+	}
+	.circle-1-box{
+		width: 100px;
+		display: inline-block;
+		
+		vertical-align: text-top;
+	}
+	.circle-1-box:not(:last-child){
+		margin-right: 5.8px;
+	}
+	.circle-1{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		background-image: url(https://www2.hm.com/content/dam/TOOLBOX/project-me/personalizedentrances/10204.png);
+		background-size: cover;
+	}
+	.circle-1-box p{
+		text-align: center;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 100%;
+		color: #6B7177;
+		margin-top: 12px;
+	}
+	.circle-1-box h1{
+		text-align: center;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 100%;
+		color: #42474C;
+		margin-top: 6px;
+	}
+	.circle-2{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		background-image: url(https://www2.hm.com/content/dam/TOOLBOX/project-me/personalizedentrances/10208.png);
+		background-size: cover;
+	}
+	.circle-3{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		background-image: url(https://www2.hm.com/content/dam/TOOLBOX/project-me/personalizedentrances/10216.png);
+		background-size: cover;
+	}
+	.circle-4{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		background-image: url(https://www2.hm.com/content/dam/TOOLBOX/project-me/personalizedentrances/10221.png);
+		background-size: cover;
+	}
+	.circle-5{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		background-image: url(https://www2.hm.com/content/dam/TOOLBOX/project-me/personalizedentrances/10217.png);
+		background-size: cover;
+	}
+	.circle-6{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		background-image: url(https://cdn.shopify.com/s/files/1/0556/8066/3742/files/B4_22_wk23_0610.jpg?v=1654863379&width=900);
+		background-size: cover;
+		background-position: center;
+	}
+	.circle-7{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		border-radius: 200px;
+		background-image: url(https://www2.hm.com/content/dam/TOOLBOX/project-me/personalizedentrances/10251.png);
+		background-size: cover;
+	}
+	.circle-8{
+		width: 100px;
+		height: 100px;
+		border-radius: 200px;
+		background-image: url(https://www2.hm.com/content/dam/TOOLBOX/project-me/personalizedentrances/10211.png);
+		background-size: cover;
+	}
+	.image2{
+		background-image: url(https://media.blogto.com/events/2018/11/20/What_is_MUJI_Exhibition_-_Web_Banner_-_Copy.jpg?w=1200&cmd=resize_then_crop&height=630&quality=70);
+		width: 880px;
+		height: 128px;
+		background-position: center;
+		background-size: cover;
+		margin-top: 36px;
+	}
+	.box-s-box{
+		margin-top: 24px;
+	}
+	.box-s-L{
+		width: 428px;
+		height: 580px;
+		padding: 46px;
+		background-image: url(https://cdn.shopify.com/s/files/1/0556/8066/3742/collections/collection_page_furniture.jpg?v=1645740324&width=1920);
+		background-position: center;
+		background-size: cover;
+		display: inline-block;
+	}
+	.box-s-L h1{
+		text-align: left;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		color: white;
+	}
+	.box-s-L .red-box{
+		text-align: center;
+		float: left;
+		margin-top: 32px;
+		color: white;
+	}
+	.box-s-R{
+		width: 428px;
+		height: 580px;
+		padding: 46px;
+		background-image: url(https://cdn.shopify.com/s/files/1/0556/8066/3742/files/B2_22_wk21_0527_fathersday.jpg?v=1653495514&width=900);
+		background-position: right;
+		background-size: cover;
+		display: inline-block;
+		vertical-align: bottom;
+		position: relative;
+		float: right;
+
+
+	}
+	.box-s-R-div{
+		bottom:46px;
+		right: 46px;
+		position:absolute;
+	}
+	.box-s-R h1{
+		text-align: right;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		color: black;
+	}
+	.box-s-R .red-box{
+		text-align: center;
+		margin-top: 32px;
+		color: white;
+		float: right;
+	}
+	.event-2{
+		background-image: url(https://cdn.shopify.com/s/files/1/0556/8066/3742/collections/collection_page_travel.jpg?v=1645735641&width=1920);
+		width: 880px;
+		height: 580px;
+		margin-top: 24px;
+		background-size: cover;
+		background-position: right;
+		text-align: center;
+		padding-top: 390px;
+		color: #fff;
+	}
+	.event-2 h1{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+	}
+	.event-2 p{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		margin-top: 12px;
+		margin-bottom: 32px;
+	}
+	.bottom-red{
+		width: 100vw;
+		height: 620px;
+		background-color: #80001A;
+		margin-top: 52px;
+		padding-top: 80px;
+		text-align: center;
+		color: #fff;
+	}
+	.bottom-red h1{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 34px;
+	}
+	.bottom-red p{
+		font-weight: 500;
+		font-size: 10px;
+		line-height: 100%;
+		margin-bottom: 8px;
+	}
+	.bottom-red a{
+		font-style: normal;
+		font-weight: 600;
+		font-size: 12px;
+		text-decoration: none;
+		color: #fff;
+	}
+	.bottom-red hr{
+		width: 134px;
+		border: 0;
+		border-top: 0.5px solid white;
+		text-align: center;
+		background-color: white;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2px;
+	}
+	.third-grid{
+		width: 880px;
+		margin: 36px auto 0 auto;
+		height: 100px;
+
+	}
+	.bottom-red-box{
+		width: 280px;
+		height: 360px;
+		background-color: #fff;
+		display: inline-block;
+	}
+	.bottom-red-box:not(:last-child){
+		margin-right: 14px;
+	}
+	.bottom-red-box .magazine-img-1{
+		width: 100%;
+		height: 216px;
+		background-image: url(https://ryohin-keikaku.jp/about-muji/activities/images/activities02.jpg);
+		background-size: cover;
+	}
+	.bottom-red-box .magazine-img-2{
+		width: 100%;
+		height: 216px;
+		background-image: url(https://ryohin-keikaku.jp/about-muji/activities/images/activities08.jpg);
+		background-size: cover;
+	}
+	.bottom-red-box .magazine-img-3{
+		width: 100%;
+		height: 216px;
+		background-image: url(https://ryohin-keikaku.jp/about-muji/activities/images/activities09.jpg);
+		background-size: cover;
+	}
+	.bottom-red-box h2{
+		margin-top: 20px;
+		color: black;
+		font-weight: 400;
+		font-size: 10px;
+	}
+	.bottom-red-box h1{
+		margin-top: 6px;
+		color: black;
+		font-weight: 600;
+		font-size: 12px;
+		margin-bottom: 44px;
+	}
+	.bottom-red-box a{
+		color: black;
+		font-weight: 600;
+		font-size: 8px;
+	}
+	.footer{
+		width: 100vw;
+		height: 664px;
+		background-color: #D9D9D9;
+		padding-top: 76px;
+	}
+	.footer .about-box{
+		width: 1084px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.footer .about-box .about{
+		display: inline-block;
+		width: 266px;
+		vertical-align: text-top;
+	}
+	.footer .about-box .about h1{
+		font-weight: 600;
+		font-size: 16px;
+		color: #212326;
+		margin-bottom: 16px;
+	}
+	.footer .about-box .about a{
+		text-decoration: none;
+		color: #212326;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	.footer .about-box .about p{
+		color: #212326;
+		width: 200px;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 140%;
+	}
+	.Email{
+		margin-top: 20px;
+		border: none;
+		width: 196px;
+		height: 40px;
+	}
+	input{
+		border: none;
+		line-height: 40px;
+		padding-left: 10px;
+		border-radius: 4px;
+	}
+	button{
+		width: 100px;
+	    height: 40px;
+	    font-size: 18px;
+	    font-weight: bold;
+	    background: #80001A;
+	    border: none;
+	    margin-top: 10px;
+	    font-style: normal;
+		font-weight: 700;
+		font-size: 13px;
+		border-radius: 4px;
+		color: #fff;
+	}
